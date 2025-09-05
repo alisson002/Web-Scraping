@@ -4,27 +4,27 @@ Este projeto é dedicado ao aprendizado de web scraping utilizando Python. Ele i
 
 ## Estrutura do Projeto
 
-O projeto está organizado em pastas temáticas, cada uma focada em aspectos específicos do aprendizado:
+O projeto está organizado em pastas temáticas, cada uma focada em aspectos específicos do aprendizado de web scraping com Python:
 
 - **`caminhos/`**: Contém scripts para manipulação de caminhos e arquivos, fundamentais para gerenciar dados coletados via web scraping.
-  - `arquivo_primeira_pasta.txt`: Arquivo de exemplo para testes.
-  - `caminhos_absolutos.py`: Script para trabalhar com caminhos absolutos (atualmente vazio ou em desenvolvimento).
-  - `construindo_caminhos.py`: Demonstra como construir caminhos de forma portátil usando `pathlib.Path`.
-  - `desafio.py`: Inclui funções para calcular tamanhos de arquivos, buscar arquivos por nome/extensão e explorar pastas.
-  - `exercicios.py`: Exemplos práticos de busca de arquivos no diretório home do usuário.
-  - `manipulando_caminhos.py`: Mostra operações como verificar caminhos absolutos, transformar relativos em absolutos e extrair partes de caminhos.
-  - `primeira_pasta/`: Subpasta com scripts similares e arquivos de exemplo.
-    - `arquivo_primeira_pasta.txt`
-    - `caminhos_absolutos.py`
-    - `construindo_caminhos.py`
-    - `manipulando_caminhos.py`
-    - `retornando_conteudos.py`: Exemplifica listagem e filtragem de conteúdos em diretórios.
-    - `segunda_pasta/`: Contém arquivos de texto para testes (`arquivo1.txt`, `arquivo2.txt`, `arquivo3.txt`).
+  - `arquivo_primeira_pasta.txt`: Arquivo de texto simples usado como exemplo para testes de manipulação de arquivos.
+  - `caminhos_absolutos.py`: Script introdutório para trabalhar com caminhos absolutos no sistema de arquivos (atualmente vazio ou em desenvolvimento).
+  - `construindo_caminhos.py`: Demonstra como construir caminhos de forma portátil usando `pathlib.Path`, garantindo compatibilidade entre sistemas operacionais.
+  - `desafio.py`: Inclui funções desafiadoras para calcular tamanhos de arquivos (KB/MB), buscar arquivos por nome/extensão e explorar pastas com profundidade configurável.
+  - `exercicios.py`: Exemplos práticos de busca de arquivos no diretório home do usuário, com ou sem especificação de extensão.
+  - `manipulando_caminhos.py`: Mostra operações avançadas como verificar se um caminho é absoluto, transformar relativos em absolutos, extrair partes de caminhos e mudar o diretório atual.
+  - `primeira_pasta/`: Subpasta com scripts similares e arquivos de exemplo para aprofundar o aprendizado.
+    - `arquivo_primeira_pasta.txt`: Arquivo de texto para testes básicos.
+    - `caminhos_absolutos.py`: Versão localizada do script para caminhos absolutos.
+    - `construindo_caminhos.py`: Versão localizada para construção de caminhos.
+    - `manipulando_caminhos.py`: Versão localizada para manipulação de caminhos.
+    - `segunda_pasta/`: Subpasta com arquivos de texto para testes avançados.
+      - `arquivo1.txt`, `arquivo2.txt`, `arquivo3.txt`: Arquivos de exemplo para simulação de dados.
 
-- **`copiando e movendo arquivos/`**: Foca em operações de cópia e movimentação de arquivos, úteis para organizar dados extraídos.
-  - `retornando_conteudos.py`: Script para listar e manipular conteúdos.
-  - `texto.txt`: Arquivo de exemplo.
-  - `destino1/`, `destino2/`, `destino3/`: Pastas de destino com arquivos de texto para demonstração de cópias.
+- **`copiando e movendo arquivos/`**: Foca em operações de cópia e movimentação de arquivos, úteis para organizar dados extraídos da web.
+  - `retornando_conteudos.py`: Script para listar, filtrar e manipular conteúdos de diretórios, incluindo verificação de existência e diferenciação entre arquivos e pastas.
+  - `texto.txt`: Arquivo de texto de exemplo usado para demonstrações de cópia e movimentação.
+  - `destino1/`, `destino2/`, `destino3/`: Pastas de destino contendo cópias de arquivos para testes.
 
 ## Detalhes dos Scripts Principais
 
@@ -45,12 +45,6 @@ O projeto está organizado em pastas temáticas, cada uma focada em aspectos esp
 
 ### copiando e movendo arquivos/retornando_conteudos.py
 - Similar ao acima, focado em operações de cópia e movimentação.
-
-## Observações
-
-- Os arquivos de texto nas pastas são usados para testes práticos, simulando dados que poderiam ser extraídos via web scraping.
-- Alguns scripts podem estar em desenvolvimento ou vazios, como `caminhos_absolutos.py`.
-- Este projeto serve como base para aprender web scraping, combinando manipulação de arquivos com técnicas de extração de dados da web.
 
 ---
 
